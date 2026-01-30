@@ -1,59 +1,55 @@
-# TodoApp
+# Angular Todo App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.5.
+A simple **Todo application** built with **Angular v21**, designed as a test project.  
+Users can add, delete, edit, mark as completed, and filter todos by status (All / Active / Completed).  
+The project uses **MockAPI** for backend simulation.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Live Demo
 
-```bash
-ng serve
-```
+[Open Todo App](https://yaroslav65.github.io/todo-app/)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## Features
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+| Feature                          | Description                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| Add Todo                          | Users can add a new todo with a title.                                      |
+| Delete Todo                       | Remove a todo from the list.                                               |
+| Edit Todo                          | Update the title of an existing todo.                                       |
+| Toggle Completed                  | Mark a todo as completed or uncompleted.                                    |
+| Toggle All                         | Mark all todos as completed or uncompleted with a single click.            |
+| Clear Completed                   | Remove all completed todos from the list.                                   |
+| Filter Todos                       | Show All / Active / Completed todos.                                        |
+| Persistent UI                      | UI updates immediately on actions.                                          |
+| Mock Backend                       | Uses [MockAPI](https://mockapi.io/) to simulate API CRUD operations.       |
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Technologies Used
 
-```bash
-ng generate --help
-```
+| Technology                       | Purpose                                                                     |
+|----------------------------------|-----------------------------------------------------------------------------|
+| Angular v21                       | Frontend framework                                                         |
+| TypeScript                        | Strongly typed programming language                                        |
+| Bulma CSS                          | UI styling and layout                                                      |
+| FontAwesome                        | Icons                                                                      |
+| MockAPI                            | Mock backend API for CRUD operations                                      |
+| RxJS                               | Reactive programming for async data flow                                   |
 
-## Building
+---
 
-To build the project run:
+## Project Setup
 
-```bash
-ng build
-```
+1. **Clone the repository**
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+git clone <your-repo-url>
+cd todo-app
 
-## Running unit tests
+2. **Install dependencies**
+npm install
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+3. **Run the application**
+npm start
